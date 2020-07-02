@@ -1,0 +1,7 @@
+---
+-   id: detect-secrets
+    name: Detect secrets
+    description: Detects high entropy strings that are likely to be passwords.
+    entry: hooks/detect-secrets
+    language: python
+    files: .*

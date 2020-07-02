@@ -9,7 +9,8 @@ repos:
         name: Detect Secrets
         description: This hook detects and prevents high entropy strings from entering the codebase.
         entry: hooks/detect-secrets
-        language: system
+        language: python
+        files: .*
 
       - id: check-mailmap
         name: Detect if an email address needs to be added to mailmap
