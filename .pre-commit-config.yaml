@@ -65,3 +65,8 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-json
       - id: detect-private-key
+
+  - repo: https://github.com/imjoseangel/pre-commit-hooks
+    rev: master
+    hooks:
+      - id: detect-secrets
