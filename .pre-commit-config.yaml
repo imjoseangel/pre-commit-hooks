@@ -65,6 +65,8 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-json
       - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
 
   - repo: https://github.com/imjoseangel/pre-commit-hooks
     rev: master
